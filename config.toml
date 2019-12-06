@@ -22,11 +22,7 @@ theme = "hugo-sustain"
 [params.social]
   Github        = "SahilBShah"
   Email         = "sahil2699@gmail.com"
-  Twitter       = "username"
   LinkedIn      = "username"
-  Stackoverflow = "username"
-  Medium        = "username"
-  Telegram      = "username"
 
 ## Main Menu
 [[menu.main]]
