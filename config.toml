@@ -11,9 +11,9 @@ theme = "hugo-sustain"
   post = "/:year/:month/:day/:slug"
 
 [params]
-  avatar = "profile.png"
+  avatar = "edited_pp.jpg"
   author = "Sahil Shah"
-  description = "Describe your website"
+  description = "This is all about me."
 
   # Custom assets can be linked with their paths relative to static/
   custom_css = []
@@ -22,7 +22,7 @@ theme = "hugo-sustain"
 [params.social]
   Github        = "SahilBShah"
   Email         = "sahil2699@gmail.com"
-  LinkedIn      = "username"
+  LinkedIn      = "sahil-shah-5a5059150"
 
 ## Main Menu
 [[menu.main]]
