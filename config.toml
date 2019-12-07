@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "http://example.org/"
+baseURL = "http://sahilsresume.netlify.com/"
 languageCode = "en"
 title = ""
 theme = "hugo-devresume-theme"
@@ -12,7 +12,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 [params]
-    author = "CowboySmall"
+    author = "Sahil Shah"
     description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
 
 
@@ -24,8 +24,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.profile]
         enable = true
-        name = "Simon Doe"
-        tagline = "Senior Software Engineer"
+        name = "Sahil Shah"
+        tagline = "Computational Biology Student at UT Austin"
         avatar = "avatar.png"
 
 
@@ -36,7 +36,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.contact]
         enable = true
-        location = "New York"
+        location = "Austin"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
