@@ -1,5 +1,5 @@
 {
-  "name": "hugo-theme-winning",
+  "name": "cv",
   "version": "1.0.0",
   "description": "",
   "main": "generatepdf.js",
@@ -19,11 +19,10 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cssandstuff/cv/issues"
+    "url": "https://github.com/cssandstuff/hugo-theme-winning/issues"
   },
   "homepage": "https://github.com/cssandstuff/cv#readme",
   "devDependencies": {
-    "cssnano": "^3.10.0",
-    "html-pdf": "^2.2.0"
+    "cssnano": "^3.10.0"
   }
 }
