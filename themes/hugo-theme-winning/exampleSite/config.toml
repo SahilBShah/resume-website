@@ -1,6 +1,7 @@
 baseurl = "https://example.com"
 title = "Winning"
 theme = "hugo-theme-winning"
+themesdir = "../.."
 
 disableKinds = ["RSS"]
 defaultContentLanguage = "en"
