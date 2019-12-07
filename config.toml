@@ -1,222 +1,309 @@
 # Page settings
 
-baseurl = "http://sahilsresume.netlify.com/"
-languageCode = "en-us"
-title = "Sahil Shah Resume"
-theme = "hugo-orbit-theme"
+baseURL = "http://sahilsresume.netlify.com/"
+languageCode = "en"
+title = ""
+theme = "hugo-devresume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
-# Do not build files for websites. Need them? Set to false
-disableRSS = true
-disableSitemap = true
-disable404 = true
+
+
+
+
 
 [params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
 
-# Meta
-    description = "Hugo Responsive Resume/CV Theme for Developers"
-    author = "Sahil Shah"
 
-# Theme styles
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
 
-    # The original template comes with 6 colour schemes. You may choose styles below.
-    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
-    # are available. Also the source LESS files are included so
-    # it’s quick and easy to change the styling and colour scheme.
 
-    styles = "styles.css"
 
-# Sidebar sections
 
-    # Profile section
     [params.profile]
-        name = "Sahil Sahil"
+        enable = true
+        name = "Sahil Shah"
         tagline = "Computational Biology Student at UT Austin"
-        avatar = "edited_pp.jpg"
+        avatar = "avatar.png"
 
-    # Contact section
+
+
+
+
+
+
     [params.contact]
         enable = true
+        location = "Austin"
 
         [[params.contact.list]]
-        class = "email"
-        icon = "fa-envelope"
-        url = "mailto: sahil2699@gmail.com.com"
-        title = "sahil2699@gmail.com"
-
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "0123 4567 890"
         [[params.contact.list]]
-        class = "phone"
-        icon = "fa-phone"
-        url = "tel:+18327827923"
-        title = "+18327827923"
-
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "simon.doe@yourwebsite.com"
         [[params.contact.list]]
-        class = "website"
-        icon = "fa-globe"
-        url = "sahilbshah.rbind.io"
-        title = "sahilbshah.com"
+        icon = "fas fa-globe"
+        url = "#"
+        text = "www.yourwebsite.com"
 
-        [[params.contact.list]]
-        class = "linkedin"
-        icon = "fa-linkedin"
-        url = "//linkedin.com/in/johndoe"
-        title = "linkedin.com/in/johndoe"
 
-        [[params.contact.list]]
-        class = "github"
-        icon = "fa-github"
-        url = "//github.com/SahilBShah"
-        title = "github.com/SahilBShah"
 
-        [[params.contact.list]]
-        class = "twitter"
-        icon = "fa-twitter"
-        url = "//twitter.com/username"
-        title = "@twittername"
 
-    # Education section
-    [params.education]
-        enable = true
-        title = "Education"
 
-        [[params.education.list]]
-        degree = "BS in Computational Biology"
-        college = "University of Texas at Austin"
-        dates = "2017 - 2021"
 
-        [[params.education.list]]
-        degree = "BS in Biology"
-        college = "ETH Zurich"
-        dates = "2020 - 2020"
 
-    # Languages section
-    [params.language]
-        enable = true
-        title = "Languages"
-
-        [[params.language.list]]
-        language = "English"
-        level = "Native"
-
-    # Interests section
-    [params.interests]
-        enable = true
-        title = "Interests"
-
-        [[params.interests.list]]
-        interest = "Hiking"
-
-        [[params.interests.list]]
-        interest = "Photography"
-
-        [[params.interests.list]]
-        interest = "Traveling"
-
-# Main body sections
-
-    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
-
-    # Summary section
-    [params.summary]
-        enable = true
-        icon = "fa-user"
-        title = "Career Profile"
-        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
-
-    # Experiences section
-    [params.experiences]
-        enable = true
-        icon = "fa-briefcase"
-        title = "Experiences"
-
-        [[params.jobs.list]]
-        position = "Lead Developer"
-        dates = "2015 - Present"
-        company = "Startup Hubs, San Francisco"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
-
-        [[params.jobs.list]]
-        position = "Senior Software Engineer"
-        dates = "2014 - 2015"
-        company = "Google, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
-
-        [[params.jobs.list]]
-        position = "UI Developer"
-        dates = "2012 - 2014"
-        company = "Amazon, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
-
-    # Projects section
-    [params.projects]
-        enable = true
-        icon = "fa-archive"
-        title = "Projects"
-        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
-
-        [[params.projects.list]]
-        title = "Hugrid"
-        url = "https://github.com/aerohub/hugrid"
-        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
-
-        [[params.projects.list]]
-        title = "Simple FAQ Theme for Hugo"
-        url = "https://github.com/aerohub/hugo-faq-theme"
-        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
-
-        [[params.projects.list]]
-        title = "Hugo Identity"
-        url = "https://github.com/aerohub/hugo-identity-theme"
-        tagline = "Little profile/card-style template for Hugo."
-
-        [[params.projects.list]]
-        title = "Orbit"
-        url = "https://github.com/aerohub/hugo-orbit-theme"
-        tagline = "Hugo Resume/CV Theme for Developers."
-
-        [[params.projects.list]]
-        title = "Me"
-        url = "https://github.com/aerohub/hugo-me-theme"
-        tagline = "A simple responsive Hugo theme for personal site."
-
-    # Skills section
     [params.skills]
         enable = true
-        icon = "fa-rocket"
-        title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Python & Django"
-        level = "98%"
-                
-        [[params.skills.list]]
-        skill = "Javascript & jQuery"
-        level = "98%"
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "JavaScript/Angular/React/Vue"
+        [[params.skills.list.items]]
+        details = "Python/Ruby/PHP"
+        [[params.skills.list.items]]
+        details = "Node.js/ASP.NET"
+        [[params.skills.list.items]]
+        details = "PostgreSQL/MySQL"
+        [[params.skills.list.items]]
+        details = "Object-oriented design"
+        [[params.skills.list.items]]
+        details = "Design and implement database structures"
+        [[params.skills.list.items]]
+        details = "Lead and deliver complex software systems"
 
         [[params.skills.list]]
-        skill = "Angular"
-        level = "95%"
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
 
-        [[params.skills.list]]
-        skill = "HTML5 & CSS"
-        level = "95%"
 
-        [[params.skills.list]]
-        skill = "Ruby on Rails"
-        level = "75%"
 
-        [[params.skills.list]]
-        skill = "Sketch & Photoshop"
-        level = "60%"
 
-    # Footer section
 
-    # The original template is released under the Creative Commons Attribution 3.0 License.
-    # Please keep the original attribution link when using for your own project.
-    # If you'd like to use the template without the attribution,
-    # you can check out other license options via template author's website: themes.3rdwavemedia.com
-    # 
-    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
 
-    [params.footer]
-        copyright = ""
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "MSc in Computer Science"
+        university = "University College London"
+        dates = "2010 - 2011"
+        [[params.education.list]]
+        degree = "BSc Maths and Physics"
+        university = "Imperial College London"
+        dates = "2007 - 2010"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Professional"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Climbing"
+        [[params.interests.list]]
+        name = "Snowboarding"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "Summarise your career here. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.  Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh."
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Senior Software Engineer"
+        dates = "2019 - Present"
+        company = "Google"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."
+        [[params.experience.list.items]]
+        details = "Lorem ipsum dolor sit amet, consectetuer."
+        [[params.experience.list.items]]
+        details = "Aenean commodo ligula eget dolor."
+        [[params.experience.list.items]]
+        details = "Etiam ultricies nisi vel augue."
+
+        [[params.experience.list]]
+        title = "Lead Software Developer"
+        dates = "2016 - 2019"
+        company = "Apple"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel."
+        [[params.experience.list.items]]
+        details = "Lorem ipsum dolor sit amet, consectetuer."
+        [[params.experience.list.items]]
+        details = "Aenean commodo ligula eget dolor."
+
+        [[params.experience.list]]
+        title = "Senior Software Developer"
+        dates = "2014 - 2016"
+        company = "Dropbox"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.experience.list]]
+        title = "Senior Developer"
+        dates = "2013 - 2014"
+        company = "Uber"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+
+        [[params.experience.list]]
+        title = "Backend Developer"
+        dates = "2014 - 2016"
+        company = "Amazon"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.experience.list]]
+        title = "Frontend Developer"
+        dates = "2013 - 2014"
+        company = "Startup"
+        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+
+
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/username"
+        title = "username"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/username"
+        title = "username"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/username"
+        title = "@username"
+
+
+
+
+
