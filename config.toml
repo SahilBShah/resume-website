@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "http://sahilsresume.netlify.com/"
+baseURL = "http://sahilsresume.pancakeapps.com/"
 languageCode = "en"
 title = ""
 theme = "hugo-devresume-theme"
