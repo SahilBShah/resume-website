@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "http://sahilsresume.pancakeapps.com/"
+baseURL = "http://sahilbshah.gitlab.io/resume-website"
 languageCode = "en"
 title = ""
 theme = "hugo-devresume-theme"
