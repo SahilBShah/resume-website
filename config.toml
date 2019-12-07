@@ -36,7 +36,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.contact]
         enable = true
-        location = "Austink"
+        location = "Austin"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
@@ -63,19 +63,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list]]
         title = "Technical"
         [[params.skills.list.items]]
-        details = "JavaScript/Angular/React/Vue"
-        [[params.skills.list.items]]
-        details = "Python/Ruby/PHP"
-        [[params.skills.list.items]]
-        details = "Node.js/ASP.NET"
-        [[params.skills.list.items]]
-        details = "PostgreSQL/MySQL"
+        details = "Python/R"
         [[params.skills.list.items]]
         details = "Object-oriented design"
         [[params.skills.list.items]]
-        details = "Design and implement database structures"
-        [[params.skills.list.items]]
-        details = "Lead and deliver complex software systems"
+        details = "Genetic Engineering"
 
         [[params.skills.list]]
         title = "Professional"
@@ -99,13 +91,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        university = "University College London"
-        dates = "2010 - 2011"
+        degree = "BS in Computational Biology"
+        university = "University of Texas at Austin"
+        dates = "2017 - 2021"
         [[params.education.list]]
-        degree = "BSc Maths and Physics"
-        university = "Imperial College London"
-        dates = "2007 - 2010"
+        degree = "BS Biology"
+        university = "ETH Zurich"
+        dates = "2020 - 2020"
 
 
 
@@ -118,11 +110,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.awards.list]]
-        name = "Award Lorem Ipsum"
+        name = "Austin ISD Scholarship"
         body = "Microsoft lorem ipsum"
         date = "2019"
         [[params.awards.list]]
-        name = "Award Donec Sodales"
+        name = "TIDES Fellowship"
         body = "Oracle Aenean"
         date = "2017"
 
@@ -139,9 +131,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.languages.list]]
         name = "English"
         level = "Native"
-        [[params.languages.list]]
-        name = "Spanish"
-        level = "Professional"
 
 
 
@@ -154,9 +143,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.interests.list]]
-        name = "Climbing"
+        name = "Hiking"
         [[params.interests.list]]
-        name = "Snowboarding"
+        name = "Basketball"
         [[params.interests.list]]
         name = "Photography"
         [[params.interests.list]]
